@@ -9,9 +9,9 @@
 #define ZAP_DELAY (500)                  // 1/2 second (want to grab EPG data before timeshift starts)
 #else
 /* Restart EPG data capture */
-#define UPDATE_INTERVAL (60 * 60 * 1000)  // 60 minutes
+#define UPDATE_INTERVAL (6 * 100)  // 60 minutes
 /* Time to wait after tuning in before EPG data capturing starts */
-#define ZAP_DELAY (2 * 1000)          // 2 seconds
+#define ZAP_DELAY (2 * 100)          // 2 seconds
 #endif
 
 #include <tr1/unordered_map>
